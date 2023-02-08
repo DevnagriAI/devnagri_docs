@@ -3,7 +3,7 @@ const base = process.env.GH ? '/vuepress/' : '/'
 module.exports = {
   title: 'DEVNAGRI',
   description: 'We Celebrate INDIAN Languages',
-  dest: 'vuepress',
+  dest: 'public',
   base,
   head: [
     ['link', { rel: 'icon', href: `/logo.png` }]

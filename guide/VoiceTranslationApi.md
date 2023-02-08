@@ -46,5 +46,5 @@ The request requires input in the form data
 
 | Language        | Code | Sample File
 | ------------- |:-------------:|:-------------:|
-| English | en-IN | <audio class="english" controls><source src="../public/assets/Sample-Audio-Files/english.wav" type="audio/wav"></audio> |
-| Hindi | hi-IN | <audio class="hindi" controls><source src="../public/assets/Sample-Audio-Files/hindi.wav" type="audio/wav"></audio> |
+| English | en-IN | <audio class="english" controls><source src="./assets/Sample-Audio-Files/english.wav" type="audio/wav"></audio> |
+| Hindi | hi-IN | <audio class="hindi" controls><source src="./assets/Sample-Audio-Files/hindi.wav" type="audio/wav"></audio> |
