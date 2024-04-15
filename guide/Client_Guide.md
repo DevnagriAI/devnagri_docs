@@ -26,23 +26,35 @@ On the login page, individuals have the option to [register](https://account.dev
 
 ![Homepage](./images/DevnagriHomePage.png)
 
-![Placing an Order - Step1](./images/UserRegister.png)
-
 Once the complete details are filled, click on “Register” button, a verification email will be sent on the registered email.
 
-![EmailLink](./images/EmailLink.png)
+![Placing an Order - Step1](./images/UserRegister.png)
+
+After clicking the "Register" button, the user will be logged in and directed to the following screen.
 
 ![Verify Profile](./images/VerifyRegister.png)
 
-After that user needs to fill in billing details.
+To finalize the user registration process, please click the "Verify Email Address" button.
 
-![BillingDetails](./images/Billing.png)
+![EmailLink](./images/EmailLink.png)
 
-![Billing](./images/BillingForm.png)
+After completing the registration process, you will be automatically redirected to the user dashboard screen.
 
-Once Billing details are updated, user can now proceed to create an order.
+![UserDashboard](./images/Dashboard11.png)
 
-![BillingUpdate](./images/BillingUpdate.png)
+<!--To create a Document Translation order, one needs to click on the Create Order Button on the Document Order tile -->
+
+<!--![DocumentOrder](./images/dasboard12.png)-->
+
+<!--After that user needs to fill in billing details.-->
+
+<!--![BillingDetails](./images/Billing.png)-->
+
+<!--![Billing](./images/BillingForm.png)-->
+
+<!--Once Billing details are updated, user can now proceed to create an order.-->
+
+<!--![BillingUpdate](./images/ordercreation.png)-->
 
 ### Logging In
 
@@ -61,11 +73,21 @@ If user has forgotten (or want to reset) the registered password, then using [�
 
 ![Forgot Password](./images/Forgot_Password.png)
 
+#### Create Document Translation Order
+
+To create a Document Translation order, one needs to click on the Create Order Button on the Document Order tile.
+
+![DocumentOrder](./images/dasboard12.png)
+
+Once Billing details are updated, user can now proceed to create an order.
+
+![BillingUpdate](./images/ordercreation.png)
+
 #### Enter Project Name
 
-Choose a relevant project name for the translation order. This can relate to the company, date, or other factors with user could remember it in future
+Choose a relevant project name for the document translation order. This can relate to the company, date, or other factors with user could remember it in future
 
-![Project Name](./images/FileOrder.png)
+![Project Name](./images/projname.png)
 
 #### Select Pair of Languages
 
@@ -79,49 +101,50 @@ User need to select the industry specification to which the content is related. 
 
 ![Select Industry](./images/IndustryTypeUpdate.png)
 
-#### Add Content To Translate
+#### Upload Files To Translate
 
-User has the choice to either upload files or type text the content. Multiple files  (Upto 10 files with maximum file size of 5Mb) can be uploaded at Devnagri in different formats. We accept 22 different file formats.
+User has the choice to either select files or drop files. Multiple files (Upto 10 files with maximum file size of 15MBs each) can be uploaded at Devnagri in different formats. We accept 11 different file formats (.json, .xml, .csv, .docx, .srt, .pptx, .txt, .pdf, .xlsx, .idml, .html).
 
 ![Upload Content](./images/DropFile2.png)
 
-#### Click on next button after uploading the file.
+#### After the upload process is finished, you can click the "Next" button to provide additional details on the following screen.
 
-#### Tone of Translation
-
-Select the level of politeness to target the right audience and to get the correct translation as per the requirements.
-
-![Tone of Translation](./images/TranslationTone.png)
-
-#### Instruction
-
-The added details about the order are provided in this section. User need to add all the specific details regarding the instruction.
-
-![Instruction](./images/Instruction_update.png)
+![Order Details](./images/Order@.png)
 
 #### Service Type
 
 Choose the translation service pricing package according to the requirement. There are different packages according to the service provided.
-Package One
-User will get certified translators of the designated category. The accuracy rate will remain 78%.
-Package Two
-User will get certified translators & reviewers of the designated category. The accuracy rate will remain 95%.
+#### Standard Translation Service - User will get certified translators of the designated category. The accuracy rate will remain 78%.
+#### Premium Translation Service - User will get certified translators & reviewers of the designated category. The accuracy rate will remain 95%.
 
 ![Choose Plan](./images/ServiceType.png)
 
+#### Tone of Translation
+
+Choose the translation tone that best suits your target audience and aligns with the desired translation specifications.
+
+![Tone of Translation](./images/ToneTranslation.png)
+
+#### Instruction
+
+This section contains additional information about the order. Users should include all specific instructions and details here.
+
+![Instruction](./images/Instruction_update.png)
+
+
 ### Order Summary
 
-At the bottom of the order page will be the Order Summary, in this section details such as word count, language and total payable amount will be shown.
+At the bottom of the order page, you will find the Order Summary. This section displays details such as word count, language, and total payable amount.
 
 ![Order Summary](./images/OrderSummaryUpdate.png)
 
 #### Total Word
 
-The total number of words will be shown after calculation from written or uploaded files.
+The total number of words will be shown after calculation from the uploaded files.
 
 #### Amount
 
-Amount distribution according to selected package and languages will be shown under this option. The complete details will be mentioned for the billing amount including the taxes.
+Under this option, you'll see the breakdown of the amount distributed according to the selected translation service type and languages. It provides complete details of the billing amount, including taxes.
 
 #### Wallet Balance
 
@@ -129,19 +152,19 @@ It shows available wallet balance in user account.
 
 #### English To
 
-All the languages selected for translation are shown under this section. User can check whether all the languages are selected or not.
+This section displays the list of target languages chosen for translation. Users can verify whether all the desired languages have been selected.
 
 #### Apply Coupon
 
-Any offer coupon available with the user can be applied here. This will help to get a discount on the billing amount as per current offers. User need to agree with “Terms & Conditions” after reading the details by selecting the checkbox given.
+Users can apply any available offer coupons here, which will provide a discount on the billing amount according to the current offers. After reviewing the details, users must agree to the "Terms & Conditions" by selecting the provided checkbox.
 
 #### Total Amount
 
-The actual billable amount after applying coupon is shown for final billing. User can select the option of “Pay” and can make the payment with internal credits or through different payment gateways.
+The actual billable amount after applying any coupon is shown for final billing. User can select the option to “Pay Now” and can make the payment with internal credits or through the payment gateway.
 
 ### Payment
 
-After that user will be redirected to the payment gateway, where the amount for the order can be paid using different methods such as Scan QR with Paytm ,netbanking, debit card, credit card etc.
+User will be redirected to the payment gateway upon clicking on Pay Now, where the amount for the order can be paid using different methods such as Scan QR with Paytm ,netbanking, debit card, credit card etc.
 
 ![payemt](./images/PaymentUpdate.png)
 
@@ -187,7 +210,7 @@ v. As soon as the file gets successfully uploaded select “Save” option.
 
 ![orderstatus](./images/OrderListUpdate.png)
 
-To check the order status user need to find the “order” menu in the navigation panel. On the landing page the order list will be available with all the details. The “Status” option will be showing the current status of the order. The different statuses can be:
+To check the order status user need to click on the order button in the navidation bar. On the landing page the order listing will be available with all the details. The “Status” option will be showing the current status of the order. The different statuses can be:
 
 1. Processing:
 This status remain till the file is completely processed and is ready for translation.
@@ -217,17 +240,25 @@ User can archive the order completed or the order not required. User can use opt
 ![action](./images/ActionUpdate.png)
 
 For the project statuses shown there are different actions that user can take, these are:
+1. View: 
+To check the order details, file-wise and language-wise word counts and the bifurcations of the translation type of each segment.
 
-1. Translate:
+2. Translate:
 To check the current progress of translation, user can choose the option of translate. User can also review the translation and accept the work by using this option.
 
-2. Archive:
+3. Archive:
 User can archive any project using this option. The archived project will be removed from translation process but will be available in the user dashboard.
 
-3. Download File:
+4. Download File:
 User can download all the files of the order with translated content using this option. The files will be available with the format of the original uploaded file.
 
-4. Pay:
+5. Email Files:
+User can get all the files of the order with translated content on their registered Email address using this option. The files will be available with the format of the original uploaded file.
+
+6. Get as Excel:
+User can download all the files of the order with translated content using this option. The files will be available in the xlsx format with source text in one column and its corresponding translations in the second column.
+
+5. Pay:
 Pay For unpaid or for the orders having transaction issues this option can be chosen. It gets removed from the order for which the user has already paid.
 
 ## User Dashboard
@@ -274,7 +305,7 @@ It holds information about all the transactions made by user for the orders made
 
 ### Client Dashboard
 
-![Client Dashboard](./images/DashboardUpdate.png)
+![Client Dashboard](./images/Dashboard11.png)
 
 #### Add Picture
 
@@ -290,4 +321,6 @@ This is a premium service wallet that will hold the balance amount for the user 
 
 #### Buy Credits
 
-Using this option, client will be able to buy [Translation Credit](#TC) credits in the account.
+Using Add Balance option, client will be able to buy [Translation Credit](#TC) credits in the account.
+
+![Add Credits](./images/AddBalance.png)
