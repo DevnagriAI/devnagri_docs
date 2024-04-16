@@ -14,7 +14,7 @@ This Guide will solve the purpose of user. It provides brief description about :
 
 # Devnagri
 
-Devnagri is India's first AI-powered translation platform to help customers reach and communicate to their endusers in the language they understand. This manual will help in understanding the functionalities of the system. You may follow the steps to place the order for translation
+Devnagri is India's first AI-powered translation platform to help customers communicate to their endusers in the language they understand. This manual will help in understanding the functionalities of the system. You may follow the steps to place the order for translation
 
 ## Getting Started With Devnagri
 
