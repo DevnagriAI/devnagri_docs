@@ -210,10 +210,10 @@ v. As soon as the file gets successfully uploaded select “Save” option.
 
 ![orderstatus](./images/OrderListUpdate.png)
 
-To check the order status user need to click on the order button in the navidation bar. On the landing page the order listing will be available with all the details. The “Status” option will be showing the current status of the order. The different statuses can be:
+To check the order status user needs to click on the order button in the navidation bar. On the landing page the order listing will be available with all the details. The “Status” column shows the current status of the order. The different options can be:
 
 1. Processing:
-This status remain till the file is completely processed and is ready for translation.
+This order is being processed.
 
 2. Unassigned:
 This status indicates that translators are yet to be assigned for the order.
@@ -225,16 +225,16 @@ In case of transaction failure or unpaid order this status is shown. User can pa
 Once the translator is assigned the project status becomes “Assigned”
 
 5. Pending Review:
-If the user chose the option to get the review along with translation then this “Pending Review” status arrives after the completion of translation.
+If the user chose the option to get the review along with translation then “Pending Review” comes after the completion of translation.
 
-6. Client Review:
-Client has to check the order once it has been completed from Devnagri end. Until the client gives approval the “Client Review” status appears.
+6. Customer Review:
+Customer has to check and confirm the order once it is done from our end. Till then the order is in "Customer Review" state.
 
 7. Completed:
-After the client marks the order as completed the status is changed to “Completed”
+After the customer marks the order as completed the status is changed to “Completed”
 
 8. Archived:
-User can archive the order completed or the order not required. User can use option from “Actions” tab
+User can archive the order if it's no longer required to be shown in the list of active orders. User can use option from “Actions” tab
 
 ### Actions
 ![action](./images/ActionUpdate.png)
@@ -250,24 +250,24 @@ To check the current progress of translation, user can choose the option of tran
 User can archive any project using this option. The archived project will be removed from translation process but will be available in the user dashboard.
 
 4. Download File:
-User can download all the files of the order with translated content using this option. The files will be available with the format of the original uploaded file.
+User can download all the files of the order with translated content using this option. The files will in the same format as the original uploaded file.
 
 5. Email Files:
-User can get all the files of the order with translated content on their registered Email address using this option. The files will be available with the format of the original uploaded file.
+User can get all the files of the order with translated content on their registered Email address using this option. The files will in the same format as the original uploaded file.
 
 6. Get as Excel:
-User can download all the files of the order with translated content using this option. The files will be available in the xlsx format with source text in one column and its corresponding translations in the second column.
+User can download all the files of the order with translated content using this option. The files will be available in the xlsx format with source text in one column and its corresponding translations in the other column.
 
 5. Pay:
-Pay For unpaid or for the orders having transaction issues this option can be chosen. It gets removed from the order for which the user has already paid.
+This option can be used to pay for unpaid orders. It will not be shown for paid orders.
 
 ## User Dashboard
 
-User dashboard holds all the information about the number of projects ordered, translation status, profile, bill etc.. Below given are the details for the use of different options.
+User dashboard holds all the information about the number of projects ordered, translation status, profile, bill etc.
 
 ### Navigation Panel
 
-Navigation panel, available options are explained below;
+The various options under Navigation panel are;
 
 #### Profile
 
@@ -287,7 +287,7 @@ Information such as Billing Address, GSTIN are stored here,
 
 #### Notifications
 
-This tab shall blink whenever any new event happens with the project. For example; when the translator submit the project for review.
+This tab shall blink whenever any new event happens with the project. For example, when the translator submits the project for review.
 
 ![Notification](./images/NotificationUpdate.png)
 
@@ -299,28 +299,28 @@ Using this menu user can check out all the orders (current and previous) along w
 
 #### Transactions
 
-It holds information about all the transactions made by user for the orders made.
+It holds information about all the transactions made by user.
 
 ![Transactions](./images/TransactionUpdate.png)
 
-### Client Dashboard
+### Customer Dashboard
 
-![Client Dashboard](./images/Dashboard11.png)
+![Customer Dashboard](./images/Dashboard11.png)
 
 #### Add Picture
 
-User can add a profile photo for display purpose using this option. User can upload a file from local disk.
+User can add a profile photo for display purpose using this option. 
 
 ![Add Picture](./images/ProfilePicUpdate.png)
 
 #### Translation Credits
 
-This is a premium service wallet that will hold the balance amount for the user interested in getting a manual translator/Proof-reader for the project.
+This is a premium service, pre-paid wallet that can be used by the customer to pay for any premoum translation orders.
 
 ![Translation Credits](./images/PremiumUpdate.png)
 
 #### Buy Credits
 
-Using Add Balance option, client will be able to buy [Translation Credit](#TC) credits in the account.
+Using Add Balance option, a customer will be able to buy [Translation Credit](#TC) credits in the account.
 
 ![Add Credits](./images/AddBalance.png)
