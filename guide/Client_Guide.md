@@ -103,7 +103,7 @@ User needs to select the industry to which the content is related. It helps Devn
 
 #### Upload Files To Translate
 
-User has the choice to either select files or drop files. Multiple files (Upto 10 files with maximum file size of 15MBs each) can be uploaded at Devnagri in different formats. We accept 11 different file formats (.json, .xml, .csv, .docx, .srt, .pptx, .txt, .pdf, .xlsx, .idml, .html).
+User has the choice to either select or drop files. Multiple files (Upto 10 files with maximum file size of 15MB each) can be uploaded in different formats. We accept 11 different file formats (.json, .xml, .csv, .docx, .srt, .pptx, .txt, .pdf, .xlsx, .idml, .html).
 
 ![Upload Content](./images/DropFile2.png)
 
@@ -114,14 +114,14 @@ User has the choice to either select files or drop files. Multiple files (Upto 1
 #### Service Type
 
 Choose the translation service pricing package according to the requirement. There are different packages according to the service provided.
-#### Standard Translation Service - User will get certified translators of the designated category. The accuracy rate will remain 78%.
-#### Premium Translation Service - User will get certified translators & reviewers of the designated category. The accuracy rate will remain 95%.
+#### Standard Translation Service - User will get certified translators from the chosen industry. The accuracy rate will be around 70-80%.
+#### Premium Translation Service - User will get certified translators and reviewers from the chosen industry. The accuracy rate will be upwards of 95%.
 
 ![Choose Plan](./images/ServiceType.png)
 
 #### Tone of Translation
 
-Choose the translation tone that best suits your target audience and aligns with the desired translation specifications.
+Choose the translation tone that best suits your target audience and aligns with the company communication strategy.
 
 ![Tone of Translation](./images/ToneTranslation.png)
 
@@ -138,13 +138,13 @@ At the bottom of the order page, you will find the Order Summary. This section d
 
 ![Order Summary](./images/OrderSummaryUpdate.png)
 
-#### Total Word
+#### Total Words
 
 The total number of words will be shown after calculation from the uploaded files.
 
 #### Amount
 
-Under this option, you'll see the breakdown of the amount distributed according to the selected translation service type and languages. It provides complete details of the billing amount, including taxes.
+The total order amount including taxes. 
 
 #### Wallet Balance
 
@@ -156,15 +156,15 @@ This section displays the list of target languages chosen for translation. Users
 
 #### Apply Coupon
 
-Users can apply any available offer coupons here, which will provide a discount on the billing amount according to the current offers. After reviewing the details, users must agree to the "Terms & Conditions" by selecting the provided checkbox.
+Users can apply any available offer coupons here, which will provide a discount on the billing amount basis the code. 
 
 #### Total Amount
 
-The actual billable amount after applying any coupon is shown for final billing. User can select the option to “Pay Now” and can make the payment with internal credits or through the payment gateway.
+The actual billable amount after applying any coupon is shown for final billing. User can select the option to “Pay Now” and can make the payment with internal credits or online through the payment gateway.
 
 ### Payment
 
-User will be redirected to the payment gateway upon clicking on Pay Now, where the amount for the order can be paid using different methods such as Scan QR with Paytm ,netbanking, debit card, credit card etc.
+User will be redirected to the payment gateway upon clicking on Pay Now, where the amount for the order can be paid using various methods such as Scan QR with Paytm, netbanking, debit card, credit card etc.
 
 ![payemt](./images/PaymentUpdate.png)
 
