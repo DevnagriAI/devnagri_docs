@@ -271,19 +271,17 @@ The various options under Navigation panel are;
 
 #### Profile
 
-Top-right corner has a profile section that includes User Name and registered Email address below which there are:
+Top-right corner has a profile section that shows the customer's name and registered email address below which there are:
 
 1. Account Settings:
-It holds different functionalities to improve personal profile, read details.
+It holds different sections to update the personal profile of the customer.
 
 ![Account Settings](./images/AccountUpdate.png)
 
 2. Billing Details:
-Information such as Billing Address, GSTIN are stored here,
+Information such as Billing Address, GSTIN are stored here.
 
 ![Billing Details](./images/B1.png)
-
-3. Logout to end the current session user can use **Logout** option.
 
 #### Notifications
 
