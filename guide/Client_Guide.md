@@ -18,11 +18,11 @@ Devnagri is India's first AI-powered translation platform to help customers comm
 
 ## Getting Started With Devnagri
 
-On the homepage of the website “www.devnagri.com” there is an option of “Order Translation”. By clicking on the option user will be redirected on the Login page.
+On the homepage of the website “www.devnagri.com” there is an option of “Order Translation”. By clicking on the option user will be redirected to the Login page.
 
 ### NOTE: User need to sign-up/sign-in before Placing an order
 
-On the login page, individuals have the option to [register](https://account.devnagri.com/register) by completing the necessary information (including Name, Company, Industry, Email ID, Mobile Number, and Password) within the provided link's form.
+On the login page, user has the option to [register](https://account.devnagri.com/register) by submitting the necessary information (including Name, Company, Industry, Email ID, Mobile Number, and Password) within the provided link's form.
 
 ![Homepage](./images/DevnagriHomePage.png)
 
@@ -38,7 +38,7 @@ To finalize the user registration process, please click the "Verify Email Addres
 
 ![EmailLink](./images/EmailLink.png)
 
-After completing the registration process, you will be automatically redirected to the user dashboard screen.
+Once the registration process is completed, you will be automatically redirected to the user dashboard screen.
 
 ![UserDashboard](./images/Dashboard11.png)
 
@@ -58,18 +58,18 @@ After completing the registration process, you will be automatically redirected 
 
 ### Logging In
 
-1. User can [login](https://account.devnagri.com/login) to devnagri by using credentials (Email ID & password) that were established during the registration process.
+1. User can [login](https://account.devnagri.com/login) to devnagri by using credentials (Email ID & password) that were set during the registration process.
 
 ![Client Signin](./images/LoginUpdate.png)
 
 
-2. User can also login using “Magic Link” option, the user needs to enter the registered email address in the text box and a unique link shall be sent over the registered email using which he/she can login directly.
+2. User can also login using “Magic Link” option, the user needs to enter the registered email address in the text box and a unique link shall be sent on the registered email using which he/she can login directly.
 
 ![Magic Signin](./images/MagicLinkUpdate.png)
 
 ### Password Recovery
 
-If user has forgotten (or want to reset) the registered password, then using [“Forgot Password”](https://account.devnagri.com/forgot-password) option given on login screen it can be renewed (or reset). Enter the registered Email ID, a reset password link will be sent over email. Click on that link and enter new password. User will be notified on the successful change of the password.
+If a user has forgotten (or wants to reset) the password, then using [“Forgot Password”](https://account.devnagri.com/forgot-password) option given on login screen it can be reset. Enter the registered Email ID, a reset password link will be sent over email. Click on that link and enter new password. User will be notified on the successful change of the password.
 
 ![Forgot Password](./images/Forgot_Password.png)
 
@@ -79,25 +79,25 @@ To create a Document Translation order, one needs to click on the Create Order B
 
 ![DocumentOrder](./images/dasboard12.png)
 
-Once Billing details are updated, user can now proceed to create an order.
+Once Billing details are updated, user can proceed to create an order.
 
 ![BillingUpdate](./images/ordercreation.png)
 
 #### Enter Project Name
 
-Choose a relevant project name for the document translation order. This can relate to the company, date, or other factors with user could remember it in future
+Choose a relevant project name for the document translation order. This can relate to company, date, or any other name which the user could remember in future.
 
 ![Project Name](./images/projname.png)
 
-#### Select Pair of Languages
+#### Select Target Languages
 
-There will be a combination of languages available for translation. User can select more than one language and can get translation in multiple languages in a single order. User will be given the choice where Source Language will be English and target language can be multiple.
+There will be a list of languages available for translation. User can select more than one language and can get translation in multiple languages in a single order. User will be given the choice where Source Language will be English and target language can be multiple.
 
 ![Select Languages](./images/TargetLang.png)
 
 #### Select Industry
 
-User need to select the industry specification to which the content is related. It helps Devnagri AI to assist better. Also industry wise glossary feature is available in Devnagri which depends on this selection.
+User needs to select the industry to which the content is related. It helps Devnagri AI to assist better in the translation process. Also industry wise glossary feature is available in Devnagri which depends on this selection.
 
 ![Select Industry](./images/IndustryTypeUpdate.png)
 
