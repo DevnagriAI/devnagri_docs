@@ -1,6 +1,6 @@
 # Purpose
 
-This Guide will solve the purpose of user. It provides brief description about :
+The user guide provides brief description about :
 
 1. Devnagri
 
@@ -14,19 +14,19 @@ This Guide will solve the purpose of user. It provides brief description about :
 
 # Devnagri
 
-Devnagri is India's first AI-powered translation platform to help customers communicate to their endusers in the language they understand. This manual will help in understanding the functionalities of the system. You may follow the steps to place the order for translation
+Devnagri is India's first AI-powered translation platform to help customers communicate to their endusers in the language they understand. This manual will help in understanding the functionalities of the system. You may follow these steps to place a translation order.
 
 ## Getting Started With Devnagri
 
-On the homepage of the website “www.devnagri.com” there is an option of “Order Translation”. By clicking on the option user will be redirected to the Login page.
+On the homepage of the [Devangri](https://devnagri.com/) there is an option of “Order Translation”. By clicking on the option user will be redirected to the Login page.
 
 ### NOTE: User need to sign-up/sign-in before Placing an order
 
-On the login page, user has the option to [register](https://account.devnagri.com/register) by submitting the necessary information (including Name, Company, Industry, Email ID, Mobile Number, and Password) within the provided link's form.
+On the login page, user has the option to [register](https://account.devnagri.com/register) by submitting the necessary information (including Name, Company, Industry, Email ID, Mobile Number, and Password) in the registration form.
 
 ![Homepage](./images/DevnagriHomePage.png)
 
-Once the complete details are filled, click on “Register” button, a verification email will be sent on the registered email.
+Once the complete details are filled, click on the “Register” button, a verification email will be sent on the registered email.
 
 ![Placing an Order - Step1](./images/UserRegister.png)
 
@@ -34,7 +34,7 @@ After clicking the "Register" button, the user will be logged in and directed to
 
 ![Verify Profile](./images/VerifyRegister.png)
 
-To finalize the user registration process, please click the "Verify Email Address" button.
+To complete the registration process, please click the "Verify Email Address" button.
 
 ![EmailLink](./images/EmailLink.png)
 
@@ -58,18 +58,18 @@ Once the registration process is completed, you will be automatically redirected
 
 ### Logging In
 
-1. User can [login](https://account.devnagri.com/login) to devnagri by using credentials (Email ID & password) that were set during the registration process.
+1. User can [login](https://account.devnagri.com/login) to Devnagri by using credentials (Email ID & password) that were set during the registration process.
 
 ![Client Signin](./images/LoginUpdate.png)
 
 
-2. User can also login using “Magic Link” option, the user needs to enter the registered email address in the text box and a unique link shall be sent on the registered email using which he/she can login directly.
+2. User can also login using “Magic Link” option, the user needs to enter the registered email address in the text box and an autologin link will be sent on the registered email address.
 
 ![Magic Signin](./images/MagicLinkUpdate.png)
 
 ### Password Recovery
 
-If a user has forgotten (or wants to reset) the password, then using [“Forgot Password”](https://account.devnagri.com/forgot-password) option given on login screen it can be reset. Enter the registered Email ID, a reset password link will be sent over email. Click on that link and enter new password. User will be notified on the successful change of the password.
+If a user has forgotten (or wants to reset) the password, then using [“Forgot Password”](https://account.devnagri.com/forgot-password) option given on login screen it can be reset. Enter the registered Email ID, a reset password link will be sent over email. Click on that link and enter new password. User will be notified on the successful update of the password.
 
 ![Forgot Password](./images/Forgot_Password.png)
 
