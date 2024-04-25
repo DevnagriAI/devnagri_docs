@@ -2,7 +2,7 @@
 
 Devnagri On the Air is a platform that translates your website on the fly.
 
-The platform enables your website to go multilingual in minutes, without any hassle. You don't need to change anything at the code and infrastructure level. Its just a plug and play solution to go multilingual.
+The platform enables your website to go multilingual in minutes, without any hassle. You don't need to change anything at the code or infrastructure level. Its just a plug and play solution to go multilingual.
 
 Devnagri On The Air makes your multilingual journey quick and easy.
 
@@ -10,50 +10,44 @@ Devnagri On The Air makes your multilingual journey quick and easy.
 
 ## Login Page
 
-User has to provide the login id and password and click on Log In.
+The user must input the login credentials, then click on the "Log In" button.
 
 ![signin](./images/CaptchaLogin.png)
 
 ## User Dashboard
 
-User will be taken on his/her dashboard. He/She can choose to place a new Website Translation order.
+Once logged in, the user will be directed to their dashboard, where they can opt to initiate a new Website Translation order.
 
-![dashboard](./images/UserDashboard.png)
+![dashboard](./images/Dashboard11.png)
 
 ## New Order on DOTA
 
-1. User needs to enter the URL of his website which needs to be localised.
+1. User needs to enter the URL of the website which needs to be localised.
 2. Select the pricing plan.
 3. Select the duration.
 
 ![neworder](./images/DOTA_Web/NewDOTAOrder.png)
 
 ## Order Summary
-
+On the Order Summary page, users can select the languages for website localization and specify the industry to tailor translations for industry-specific terms.<br>
 ![order_summary](./images/DOTA_Web/SummaryUpdate.png)
 
 ## Payment
 
-User will redirect to the payment page and choose any payment method for the transaction and confirm the order.
+If user has existing balance in their wallet, the order will be confirmed, and they will be redirected to the "Verify Website Ownership" page. Alternatively, if the user does not have balance in their wallet, they will be redirected to the payment gateway, where they can select a preferred payment method to complete the transaction and confirm the order.
 
 ![payment](./images/DOTA_Web/Payment.png)
 
-Order gets confirmed and page will navigate to the verify website ownership page.
+After the order is confirmed, the page will transition to the "Verify Website Ownership" page.
 <!-- ![l](./images/a1.png) -->
-
-## Order Confirmation
-
-If existing user has balance in wallet, the order will get confirmed and you will redirect to the verify website ownership page.
-
-If new user does not have any credits, it will redirect to the payment page and then to the verify website ownership page.
 
 ## Verify Website Ownership
 
-Sign in to your domain name provider and add the generated TXT record for you into your [DNS Configuration](https://www.youtube.com/watch?v=K1B5UwSBwko).
+Sign in to your domain name service provider and add the generated TXT record generated for your domain into your [DNS Configuration](https://www.youtube.com/watch?v=K1B5UwSBwko).
 
 ![domain_verify](./images/domain_verify.png)
 
-Click on **verify** and then it will take up few minutes for verification.
+Click on **verify** and then it will take up sometime to verify the txt record.
 
 ## Select approach
 
@@ -69,29 +63,25 @@ Step 1.
 
 ![subdomain_step1](./images/DOTA_Web/SubdomainStep1.png)
 
-**a.** Please enter the CNAME entries generated for you in your DNS record.
+**a.** Please enter the CNAME record generated for the website URL in your DNS.
 
-Note: If you are using CDN, you need to disable proxy on Cloudflare.
+Note: If you are using CDN, you need to disable proxy setting on Cloudflare.
 
 If you are using GoDaddy or Cloudflare you can see how to do it in the videos below:
 
 [GoDaddy](https://www.youtube.com/watch?v=M47Lpp5f9lE)
 <br>
-
 [Cloudflare](https://www.youtube.com/watch?v=sCuEqr4MHKM)
 
-Click on **Verify CNAME** and after verification the red cross should become green tick after a few minutes.
+Click on **Verify CNAME** and post verification both the red cross will turn into green tick after a few minutes.
 
-Devnagri is currently initializing your subdomains. Please be patient while the process completes.
-
-**b.** To apply SSL on localised website, add below CNAME record to your DNS service provider. 
-Click on **Verify SSL** to verify this step.
+Devnagri is currently initializing your subdomains and generating SSL certificates for the subdomains. Please be patient while the process completes.
 
 Step 2.
 
 ![subdomain_step2](./images/DOTA_Web/SubdomainStep2.png)
 
-It is recommended that you include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
+It is recommended that you include the Javascript code snippet immediately before your closing body tag. This will enable the language switcher to appear on your source website, as well as add hreflang tags to notify Google of the different variations of the same page and prioritize indexing of these pages. This is particularly beneficial for your SEO efforts.
 
 Once its done, you can click on **Finish** and you're done!
 
@@ -103,7 +93,7 @@ Your project has been created. Now, you can go to DOTA dashboard by clicking on 
 
 ### 2. Subdirectory
 
-This approach involves creating a new subdirectory for each language version of your website. For example, if your main website is www.example.com, the Hindi version would be www.example.com/hi.
+This approach involves creating a new subdirectory for each language version of your website. For example, if your main website is www.example.com, the Hindi version could be www.example.com/hi or www.example.com/hindi.
 
 Step 1.
 
@@ -119,7 +109,7 @@ Step 2.
 
 ![subdirectory_step1](./images/DOTA_Web/SubDirectory3.png)
 
-The final step is to include the JS code, which simplifies the creation or the language button and also adds hreflang tags to your website.
+The final step is to include the JS code, which simplifies the creation of the language button and also adds hreflang tags to your website.
 
 It is recommended that you include the Javascript code snippet immediately before your closing body tag.This will enable the language switcher to appear on your website.
 
@@ -151,12 +141,12 @@ User dashboard shows all the details of order placed for a domain.
 
 1. Website name
 2. Languages
-3. URLs
-4. Status
-5. Plan
-6. Publish
+3. Industry
+4. Count of URLs
+5. Status of the Domain
+6. Plan
 7. Progress
-8. Valid Till
+8. Plan Validity
 9. Page Views
 10. Word Count
 
@@ -169,106 +159,71 @@ ex  Languages,Urls,Plan,Progress,word count,pages view.
 
 ![plan](./images/Dotaactiveplandetails.png) -->
 
-## URLs tab
+## URLs
+
+When the user clicks on the "URLs" tile, they will be directed to a list of URLs.
 
 ![wordcount](./images/DOTA_Web/UrlUpdate.png)
 
-## Progress  
+## Translation Progress  
 
-If all the URLs translated by system then the progress will show 100% on the dashboard.
-
-## Add URLs
-
-If system did not crawl any url due to some technical issue or user want only one particular URL to be translated so user can provide the URL and translate the page.
-Upon clicking on the add URLs page will redirect to the next page.
-
-![url_status](./images/DOTA_Web/URLStatus.png)
-
-## URL sync again button
-
-Upon clicking on the Sync again button all the URLs will sync and will display on the screen.
-
-<!-- ![sync](./images/a3.png) -->
-
-## Translate button
-
-Click on the translate button URLs will be loaded to the DOTA dashboard.
-
-<!-- ![tran](./images/translate.png) -->
-
-## Don't have URL
-
-If system not crawling all the URLs user can click on the click here button and add URLs manually.
-
-<!-- ![Donthave](./images/clickurl.png) -->
-
-## Upload files
-
-User has to update all the URLs in the file and click on the upload button.
-
-![upload_files](./images/DOTA_Web/UploadFilesUpdate.png)
-
-## Paste URLs
-
-User can use this tab by pasting individually URLs. to crawl.
-
-![paste_urls](./images/DOTA_Web/PasteUpdate.png)
-
-## Publish URLs
-
-User can add all the URLs in the file and publish it directly.
-
-![publish_urls](./images/DOTA_Web/PublishUrl.png)
+If all the content on URLs is accepted by User then the progress will show 100% on the dashboard.
 
 ## Words
 
-This shows word count - how many words are in the URL.
+This shows word count - how many words are present in the URL.
 
 ## Translation Type
 
-This shows translation type of URLs - MT,PT,HT.
+This shows translation type of the URL - MT (Machine Translation),PT (Premium Translation),HT (Human Translation).
 
 ### Machine Translation
 
-The translation done by machine.
+The translation done by Machine.
 
 ### Human Translation
 
-As user want to translate URL him self by using proof read option.  
+As the user wishes to translate the URL themselves, they can utilize the proofreading option.
 
 ### Premium Translation
+
+As the user intends to translate the URL using Devnagri's Premium Translation service.
 
 <!-- ![translator](./images/a14.png) -->
 
 ## Created On
 
-Shows the date on which the URL was created.
+Shows the date on which the URL was created in the Devnagri System.
 
 ## Published On
 
-Show the date on which the URL was published for the First time.
+Shows the date on which the URL was published for the first time in the Devnagri System.
+
+## Published On History
+
+Once a user clicks on Published On date corresponding to a specific URL, a popup will show up and display the history of publishing/unpublishing of that URL.
 
 ## Updated On
 
-Shows the date on which the URL was updated with some new content.
+Displays the date when the URL was last updated with new content.
 
 ## Action
 
 ### Preview
 
-User can view the translated URL of the particular language.
+User can view the translated URL in the selected language.
 
-<!-- ![preview](./images/a15.png) -->
+![preview](./images/Dota_Web/Preview1.png)
 
 ### Proof Read/Translate
 
 Click on proof read tab.
 
+![preview](./images/Dota_Web/ProofRead.png)
+
 Proof read shows  all the sentences of the URL along with the translation.
 
 User can also do modification of the sentences.
-
-<!-- ![pf](./images/a16.png) -->
 
 ![proofread](./images/Toggledota.png)
 
@@ -276,32 +231,30 @@ User can also do modification of the sentences.
 
 User can sync word count for each url.
 
-![proofread](./images/DOTA_Web/SyncWord.png)
+![syncwordcount](./images/DOTA_Web/SyncWord.png)
 
 ## Published
 
 Only published links are shown as translated.
-We don't translate unpublished URLs.
+<!--We don't translate unpublished URLs.-->
 
 ![ative](./images/DOTA_Web/PublishUrlUpdate.png)
 
 ## Search Tab
 
-User can search any URL in the search button.
+Users can utilize the search button to look up any URL, with the checkbox enabling exact search functionality.
 
 ![search](./images/DOTA_Web/Search.png)
 
 ## Change URL Status
 
+Users have the ability to publish or unpublish URLs using the options from the dropdown menu. Selecting "publish in all languages" will publish the URL for all available languages, while unpublishing can only be done on a language-by-language basis.
+
 ![urlupdate](./images/DOTA_Web/ChangeStatus.png)
 
-## Publish In All Languages
-
-User can publish url in all languages.
-
-![publishall](./images/DOTA_Web/PublishAll.png)
-
 ## Add more language
+
+User can add on new languages from the "Add Languages" option.
 
 ![morelanguage](./images/DOTA_Web/AddLanguage.png)
 
@@ -315,105 +268,160 @@ We can delete the URLs by using the delete button.
 
 ## Change Block/Unblock URL Status
 
-User can change Block/Unblock url status.
+User can change Block/Unblock url status using the block button.
 
 ![Block](./images/DOTA_Web/ChangeBlock.png)
 
-## Change language dropdown filter button
+## Change language Dropdown
 
-User can see all the progress of the translated URLs in the particular language.
+User can see the progress of the translated URLs in the selected language.
 
 ![PT](./images/DOTA_Web/LanguageSwitcherUpdate.png)
 
-## Filter Button
+## Filter Dropdown
 
-User can use the filter button to search for Active/Inactive, Translation type, URls.
+User can use the filter dropdown to filter on Active/Inactive/Blocked status, Published/Unpublished status, Translation type of the URLs.
 
 ![filter](./images/DOTA_Web/FilterUpdate.png)
 
+## Add URLs
+
+If system did not crawl any url due to some technical issue or user want only some specifc URLs to be translated, so user can provide the URLs and translate them.
+Upon clicking on the "Add URLs" page will redirect to the next page.
+
+![url_status](./images/DOTA_Web/URLStatus.png)
+
+## Scan Your Website button
+
+Upon clicking on the Scan Your Website button all the website will get scan and will display on the screen.
+
+<!-- ![sync](./images/a3.png) -->
+
+## Translate button
+
+Post selecting from the list of populated URLs, click on the translate button and URLs will be loaded to the DOTA dashboard.
+
+<!-- ![tran](./images/translate.png) -->
+
+## Don't have URLs
+
+If system not crawling all the URLs user can click on the click here button and add the URLs to the dashboard manually.
+
+<!-- ![Donthave](./images/clickurl.png) -->
+
+## Manually Adding URL
+
+Users can add URLs using either the "Paste URLs" or "Upload Files" feature to crawl content from the uploaded URLs.
+
+![upload_files](./images/DOTA_Web/UploadFilesUpdate.png)
+
+<!--## Paste URLs-->
+
+<!--User can use this tab by pasting individually URLs. to crawl.-->
+
+<!--![paste_urls](./images/DOTA_Web/PasteUpdate.png)-->
+
+## Publish URLs
+
+User can add all the URLs in the file and publish it directly.
+
+![publish_urls](./images/DOTA_Web/PublishUrl.png)
+
 ## Publish
 
-Enable translation for the domain.
+Type Live in the textbox present in the top right of the screen for enabling the translations on the localised URLs.
+
+![publish_domain](./images/DOTA_Web/PublishDomain.png)
 
 ## Language Switcher
 
-User can add the following script to display the language switcher on your website.
+User can add the following script to display the language switcher on the source website.
 
 ![language_switcher](./images/DOTA_Web/LanguageSwitcher.png)
 
 ## Custom CSS
 
-You can use Custom CSS to customize the positioning of Language Switcher Dropdown.
-Recommendation: Please use combination of (right and bottom) or (left and bottom) and rest field is empty for better dropdown position.
+You can use Custom CSS to customize the positioning of Language Switcher Dropdown.<br>
+Recommendation: Please use combination of (right and bottom) or (left and bottom) and keep the rest field as empty for better dropdown positioning.
 
 ![dropdown_position](./images/DOTA_Web/CustomCSS.png)
 
 ## Settings
 
-Language dropdown on your website
+Language dropdown on your website<br>
+
 Recommendation : if you are using custom dropdown, please disable both the options.
 
 ![publish_settings](./images/DOTA_Web/SettingUpdate.png)
 
 ### Subdomain Redirect
 
-If you are using Devnagri language dropdown, you need to "ON" the settings. This will help you populating a dropdown on your proxy website. This option will work only after you have added the CNAME successfully.
-Recommended: if you are not using your default language dropdown.
+If you are using Devnagri language dropdown, you need to toggle "ON" the setting. Selecting a language will redirect you to the localized versions of the website, providing assistance in accessing content tailored to your language preference. This option will work only after you have added the CNAME successfully.
+
+Recommended only if you are not using your default language dropdown.
 
 ### Language Dropdown UI
 
-Enabling This will help you populating an automatic language dropdown on your proxy website.
+Enabling this will help you populate an automatic language dropdown on your proxy website.
 
 ### Automatic Translations
 
-If this is toggled to ON then any new URL that comes into the system automatically is marked ACTIVE and localised.
-If this is toggled to OFF then any new URL that comes into the system automatically is marked INACTIVE and NOT localised. The user is taken to the parent site when he tried to access this new URL.
+If this is toggled to ON then any new URL that comes into the system automatically is marked ACTIVE (published) and localised.
+If this is toggled to OFF then any new URL that comes into the system automatically is marked INACTIVE (unpublished) and NOT localised. 
+
+The user is taken to the parent site when he tries to access the new URLs.
+
+![automatic_translations](./images/DOTA_Web/AutomaticTranslations.png)
 
 ### Static Content Website
 
-This settings for if your website has static content then enabling this would speed up the content localisation.
+Enabling this setting is beneficial for websites with static content as it accelerates the process of content localization.
+
+![Static_content](./images/DOTA_Web/StaticContent.png)
 
 ### Show Professional Translations ONLY
 
-Setting this to ON would ensure only manually approved, professional translations would be shown else the content would be in English.
+Setting this to ON would ensure only manually approved/accepted translations would be displayed on the website else the content would be in parent site language only.
+
+![Professional_Translations](./images/DOTA_Web/ProfessionalTranslations.png)
 
 ## SSL Certificate CNAME
 
-Please include the CNAME that has been generated for your localized website.
+The SSL certificate gets generated automatically once the CNAME entry is done for proxy server mentioned corresponding for each language.
 
 ![SSL_certificate](./images/DOTA_Web/SSLCertificateUpdate.png)
 
 ## Subdomain
 
-You can active subdomains for language with the CNAME.
+You can publish the subdomains for each language post making the CNAME entry with the Domain Name Service Provider using the highlighted toggle buttons.
 
 ![subdomain](./images/DOTA_Web/SubdomainUpdate.png)
 
-## Page Views
+<!--## Page Views-->
 
-Here, the user can see no. of visitors for each URL and language.
+<!--Here, the user can see no. of visitors for each URL and language.-->
 
-![pageview](./images/DOTA_Web/PageViewsUpdate.png)
+<!--![pageview](./images/DOTA_Web/PageViewsUpdate.png)-->
 
-### Total Views
+<!--### Total Views-->
 
-Total Views has the total no. of visitors on your localised website.
+<!--Total Views has the total no. of visitors on your localised website.-->
 
 ## Premium Translation Tab
 
-User can see all the Premium translation orders on this page.
+User can see all the Premium Translation orders on this page.
 
 ![PTOrder](./images/DOTA_Web/PTOrder.png)
 
 ## Order for Premium Translation
 
-Upon clicking 'Order for Premium Translation', you will be redirected to the page where you can select the URLs for which you want to create Premium Translation order. Click on 'Next' after selecting the URLs and you will land on 'Create Order' page.
+Upon clicking 'Order High Quality Translation', you will be redirected to the page where you can select the URLs for which you want to create High Quality Translation. Click on 'Next' after selecting the URLs and you will transition on 'Create Order' page.
 
 ![PT_order_urls](./images/DOTA_Web/PremiumOrder.png)
 
 ## Create Order
 
-This is where the user can create order by filling all the details.
+This is where the user can create order by filling all the details (Project Name, Target Languages, Industry).
 
 ![Order](./images/DOTA_Web/PT1.png)
 
@@ -421,70 +429,75 @@ This is where the user can create order by filling all the details.
 
 ## PT orders will reflect on orders page and PT
 
-The list of PT orders will be shown under orders page and Premium translation page of DOTA dashboard.
+The list of PT orders will be shown in orders page and Premium Translation section of DOTA dashboard.
 
-![ordersummary](./images/DOTA_Web/PT4.png)
+![ordersummary](./images/DOTA_Web/PT3.png)
 
-![ptorder](./images/DOTA_Web/PT3.png)
+![ptorder](./images/DOTA_Web/PT4.png)
 
 ## Translate Button
+
+User can visit the Translation Page of the Premium Translation Order by using this button and check the status of the segments.
 
 ![PTtranslate](./images/DOTA_Web/PT5.png)
 
 ## Translate Page
 
-In this page user can see many option and toggle button.
+On this page user can see many options and toggle button.
 
-Order type,
+Order type
 
-Order Industry,
+Order Industry
 
-Level of Politeness.
+Level of Politeness
 
-Sorting.
+Filters
 
-Jump to segment.
+Jump to segment
 
-Language.
+Language
 
-Link.
+URL being translated
 
-Duplicate words.
+Duplicate words
 
-No.of words in the page.
+No. of words in the page
 
-![toggle](./images/Dotatoggle.png)
+![toggle](./images/Toggledota.png)
 
 ## Toggle Controls
 
-Upon clicking on toggle button the toggle will hide all the button present on the bottom of the page.
+Upon clicking on toggle button the toggle will hide the sticky menu present on the bottom of the page.
 
 ![toggle](./images/toggle1.png)
+
 ![tg](./images/toggle2.png)
 
 ## Keyboard Shortcuts
+
+Users can utilize the shortcuts available on this popup to streamline their workflow on the translation page..
 
 ![glossary](./images/Dotaglossary.png)
 
 ## Instructions
 
-This shows the instructions given at the order creation time.
+This popup displays the instructions provided during order creation.
 
 ![instruction](./images/Dotainstructions.png)
 
-![font](./images/Dotafont.png)
+<!--![font](./images/Dotafont.png)-->
 
 ## Description on Translate Page
 
 ## Save Translation
 
-User/Translator can save a particular segment after making any changes by clicking on the save translation button.
+The user or translator can save a specific segment after making changes by clicking the "Save Translation" button.
 
 ![save](./images/single.png)
 
 ## Add Comment
 
-User can add comment on the translation of any segment.
+Users have the option to add comments to the translation of any segment.
 
 ![addcomment](./images/Addcomment.png)
 
@@ -497,6 +510,8 @@ The Revision History feature allows users to review the complete history of chan
 ## Accept Translation
 
 Reviewers can accept the translations done by translators by clicking on this button.
+
+![accept](./images/Accept.png)
 
 ## Reject Translation
 
@@ -512,13 +527,13 @@ Reviewers can accept/reject all segments at once from here.
 
 ## Filter By
 
-User can filter all the segment by using the options such as Translated, Untranslated, Accepted, Rejected, Commented, Duplicates etc.
+Users can filter from all the segments on basis of the status of the segments such as Translated, Untranslated, Accepted, Rejected, Commented, Duplicates etc.
 
-![sort](./images/Sort.png)
+![sort](./images/filter.png)
 
 ## Advance Filter
 
-User can filter all the segment by using advance filter option such as Source Text, Translation Type, Sort By, Source with tags
+Users can filter from all the segments by using advance filter options such as Source Text, Translation Type, Sort By, With tags in the source segments.
 
 ![Advancesort](./images/DOTA_Web/AdvanceFilter1.png)
 
@@ -526,7 +541,7 @@ User can filter all the segment by using advance filter option such as Source Te
 
 ## Find And Replace
 
-User can find segment text and replace using this option.
+Users can find segment text and replace (in the translations) using this option.
 
 ![find](./images/DOTA_Web/FindReplace1.png)
 
@@ -534,25 +549,25 @@ User can find segment text and replace using this option.
 
 ## Jump to Segment
 
-User can enter any segment number in the search box and click on **Go** button to jump to that segment number on the page.
+Users can input any segment number into the text box and click the ***Go*** button to navigate to that specific segment within the order.
 
 ![jumptosorting](./images/jump.png)
 
 ## Autofill MT
 
-Using this option all the untranslated sentence will be filled up with devnagri MT.
+Selecting this option will automatically populate all untranslated segments with the chosen machine translation type.
 
 ![Autofill](./images/DOTA_Web/AutoFill.png)
 
 ## Preview
 
-Using this option user can preview page in translated language once translation is completed.
+Using this option user can preview the webpage in translated language once translation is completed.
 
 ![Preview](./images/DOTA_Web/Preview.png)
 
 ## Stats
 
-User can check Translation Statistics using this option
+Users can check Translation Statistics using this option.
 
 ![StatsOption](./images/DOTA_Web/Stats1.png)
 
@@ -566,39 +581,40 @@ User can check Translation Statistics using this option
 
 ### URLs Purge
 
-Used to purge the cache of URLs. <br>
-Limit - 5 URLs at a time, one per line.
+User can use this option to purge the cache of URLs. <br>
+Limitation - 5 URLs at a time, one per line.
 
 ![purge_url](./images/DOTA_Web/CustomPurge.png)
 
 ### Folder/Prefix Purge
 
-Used to purge all the URLs of mentioned folder. <br>
-Limit - One folder at a time.
+User can use this option to purge all the URLs of mentioned folder. <br>
+Limitation - One folder at a time.
 
 ![purge_folder](./images/DOTA_Web/PurgeFolder.png)
 
 ### Domains
 
-Purge all cached files of domains.
+User can use this option to purge all cached files of the specified domain.
 
 ![purge_domain](./images/DOTA_Web/PurgeDomain.png)
 
 ### Purge Settings
 
-Purge settings data so that changes done for the localised website get reflected.
+User can use this option to purge the settings data so that changes done for the localised website gets reflected.
 
 ![purge_settings](./images/DOTA_Web/PurgeSettings.png)
 
 ### Bypass Cache
 
-This feature is used to Bypass Page Cache.
+Please utilize this feature only if the website URL(s) remain the same before and after login.<br>
+User needs to specify the cookie name that will enable the system to identify whether the page cache should be bypassed.
 
 ![bypass_cache](./images/DOTA_Web/Bypass.png)
 
 ### Query/Hash Params
 
-Parameters after ? and # can be handled using this feature.
+If the site employs hash or query string parameters and you wish to determine whether each variant of URL(s) should be cached individually, please utilize the following section.
 
 ![query](./images/DOTA_Web/Query.png)
 
@@ -613,20 +629,21 @@ Please add comma seprated folder names. eg:- amp,msite etc.
 
 ### Blocked Keywords/URLs
 
-For preventing blocked URLs to store in system. <br>
+For preventing blocked URLs to store in system user can utilise this option. <br>
 Please delete the malformed URLs once after adding them in the block list.
 
 ![blocked_keywords](./images/DOTA_Web/BlockedKeywords.png)
 
 ### Exclude Block
 
-Mention class or div that you do not want to translate.
+This option lets you block specific sections on the website from being translated.<br>
+User needs to mention class or div that he/she do not want to translate.
 
 ![exclude_block](./images/DOTA_Web/ExcludeBlock.png)
 
-### Robots.txt
+### SEO Crawling
 
-Please check the syntax and ensure you upload correct robots.txt.
+When set to "ON," this feature removes special instructions from the localized website that prevent search engines like GoogleBOT from indexing it. This means that once the localized website is fully integrated, search engines and other bots can freely access and analyze its content.
 
 ![robots.txt](./images/DOTA_Web/Robots.png)
 
@@ -638,21 +655,21 @@ An image on the main site will be replaced by the localised image by providing t
 - Language - select the localised language.
 - Localised URL - has the image url that is to be put on the localised site.
 
-Note:- This feature can be used for images, docs, ppts etc.
+Note:- This feature can be used for images, docs, pptx etc. file formats.
 
-![object_mapping](./images/object_mapping.jpeg)
+![object_mapping](./images/object_mapping.png)
 
 ### Iframes
 
 Specify iframe IDs that you want to localise. <br>
-Limit - Mentioned iframes should exist across the site.
+Limitation - Mentioned iframes should exist across the site.
 Please add comma separated iframe ids, for eg:- iframeid1, iframeid2 etc.
 
 ![iframes](./images/DOTA_Web/Iframes.png)
 
 ### Hreflang Tags
 
-Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.
+Please add hreflang tags in your source code. These tags let Google know you have different versions of the same page and favor indexing of these pages. You can find these hreflang tags in the head tag of your website source code.<br>
 Note that with this method, you don't need to edit your sitemap.
 
 ![hreflang_tags](./images/DOTA_Web/HreflangTagsUpdate.png)
@@ -678,12 +695,11 @@ If User wants to translate any particular word he can create a rule for always t
 
 ### 1. Clear Cache of a Single URL
 
-> **POST 'https://dota-web-api.devnagri.com/api/purge-cache-url'**
+> **POST 'https://dns.devnagri.com/page-cache/clear-url'**
 
 ```json
 {
-    "api_key" : "abcdefghijk_xxx",
-    "url" : "https://fourtek.com/"
+    "english_url" : "https://fourtek.com/"
 }
 ```
 
@@ -693,17 +709,15 @@ The request requires input in the json data
 
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
-| api_key | abcdefghijk_xxx | API Key |
 | url | "https://fourtek.com/" | URL for purging |
 
 ### 2. Clear Cache of Complete Domain
 
-> **POST 'http://localhost:8081/api/purge-cache-url'**
+> **POST 'https://dns.devnagri.com/page-cache/clear-domain'**
 
 ```json
 {
-    "api_key" : "abcdefghijk_xxx",
-    "isDomainWise" : true
+    "domain" : "https://fourtek.com"
 }
 ```
 
@@ -713,5 +727,4 @@ The request requires input in the json data
 
 | Key | Sample value | Description |
 | -------------:|:-------------:|:-------------:|
-| api_key | abcdefghijk_xxx | API Key |
-| isDomainWise | true | This as **true** will purge the complete domain for this API key |
+| domain | "https://fourtek.com" | URL of domain for purging |
