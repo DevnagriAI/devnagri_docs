@@ -213,13 +213,13 @@ Displays the date when the URL was last updated with new content.
 
 User can view the translated URL in the selected language.
 
-![preview](./images/Dota_Web/Preview1.png)
+![preview](./images/DOTA_Web/Preview1.png)
 
 ### Proof Read/Translate
 
 Click on proof read tab.
 
-![preview](./images/Dota_Web/ProofRead.png)
+![preview](./images/DOTA_Web/ProofRead.png)
 
 Proof read shows  all the sentences of the URL along with the translation.
 
