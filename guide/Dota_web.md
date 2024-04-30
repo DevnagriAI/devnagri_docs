@@ -2,7 +2,7 @@
 
 Devnagri On the Air is a platform that translates your website on the fly.
 
-The platform enables your website to go multilingual in minutes, without any hassle. You don't need to change anything at the code and infrastructure level. Its just a plug and play solution to go multilingual.
+The platform enables your website to go multilingual in minutes with minimal effort. No changes are needed in the website code. It's a plug and play solution to go multilingual.
 
 Devnagri On The Air makes your multilingual journey quick and easy.
 
