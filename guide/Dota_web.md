@@ -4,7 +4,7 @@ Devnagri On the Air is a platform that translates your website on the fly.
 
 The platform enables your website to go multilingual in minutes with minimal effort. No changes are needed in the website code. It's a plug and play solution to go multilingual.
 
-Devnagri On The Air makes your multilingual journey quick and easy.
+Devnagri On the Air makes your multilingual journey quick and easy.
 
 ![DOTA](./images/DOTA_Web/DotaWebIntro.png)
 
@@ -22,7 +22,7 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## New Order on DOTA
 
-1. User needs to enter the URL of his website which needs to be localised.
+1. Enter the URL of the website which needs to go multilingual.
 2. Select the pricing plan.
 3. Select the duration.
 
@@ -34,7 +34,7 @@ User will be taken on his/her dashboard. He/She can choose to place a new Websit
 
 ## Payment
 
-User will redirect to the payment page and choose any payment method for the transaction and confirm the order.
+User will be redirected to the payment page and choose any payment method for the transaction and confirm the order.
 
 ![payment](./images/DOTA_Web/Payment.png)
 
