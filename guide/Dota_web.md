@@ -22,14 +22,14 @@ Once logged in, the user will be directed to their dashboard, where they can opt
 
 ## New Order on DOTA
 
-1. User needs to enter the URL of the website which needs to be localised.
+1. Enter the URL of the website which needs to be localised.
 2. Select the pricing plan.
 3. Select the duration.
 
 ![neworder](./images/DOTA_Web/NewDOTAOrder.png)
 
 ## Order Summary
-On the Order Summary page, users can select the languages for website localization and specify the industry to tailor translations for industry-specific terms.<br>
+On the Order Summary page, a user can select the languages for website localization and specify the industry to tailor translations for industry-specific terms. Please do note that you can add languages later on as well. <br>
 ![order_summary](./images/DOTA_Web/SummaryUpdate.png)
 
 ## Payment
@@ -38,7 +38,7 @@ If user has existing balance in their wallet, the order will be confirmed, and t
 
 ![payment](./images/DOTA_Web/Payment.png)
 
-After the order is confirmed, the page will transition to the "Verify Website Ownership" page.
+After the order is confirmed, the user will be redirected to the "Verify Website Ownership" page.
 <!-- ![l](./images/a1.png) -->
 
 ## Verify Website Ownership
@@ -73,7 +73,7 @@ If you are using GoDaddy or Cloudflare you can see how to do it in the videos be
 <br>
 [Cloudflare](https://www.youtube.com/watch?v=sCuEqr4MHKM)
 
-Click on **Verify CNAME** and post verification both the red cross will turn into green tick after a few minutes.
+Click on **Verify CNAME** and post verification both the red crosses will turn into green ticks after a few minutes.
 
 Devnagri is currently initializing your subdomains and generating SSL certificates for the subdomains. Please be patient while the process completes.
 
@@ -161,47 +161,47 @@ ex  Languages,Urls,Plan,Progress,word count,pages view.
 
 ## URLs
 
-When the user clicks on the "URLs" tile, they will be directed to a list of URLs.
+When the user clicks on the "URLs" tile, they will be directed to a list of URLs. The domain name is listed separately and hence the homepage would show up as just a / .
 
 ![wordcount](./images/DOTA_Web/UrlUpdate.png)
 
 ## Translation Progress  
 
-If all the content on URLs is accepted by User then the progress will show 100% on the dashboard.
+Percentage of segments accepted by the user.
 
 ## Words
 
-This shows word count - how many words are present in the URL.
+Word count present in the URL.
 
 ## Translation Type
 
-This shows translation type of the URL - MT (Machine Translation),PT (Premium Translation),HT (Human Translation).
+Translation type of the URL - MT (Machine Translation), PT (Premium Translation) or HT (Human Translation).
 
 ### Machine Translation
 
-The translation done by Machine.
+Translation is to be done by the Machine Engine only.
 
 ### Human Translation
 
-As the user wishes to translate the URL themselves, they can utilize the proofreading option.
+Translation is to be done by the customer himself.
 
 ### Premium Translation
 
-As the user intends to translate the URL using Devnagri's Premium Translation service.
+Translation is to be done by utilsing the Devnagri's premium services.
 
 <!-- ![translator](./images/a14.png) -->
 
 ## Created On
 
-Shows the date on which the URL was created in the Devnagri System.
+Ddate on which the URL was created in the Devnagri System.
 
 ## Published On
 
-Shows the date on which the URL was published for the first time in the Devnagri System.
+Date on which the URL was published for the first time in the Devnagri System.
 
 ## Published On History
 
-Once a user clicks on Published On date corresponding to a specific URL, a popup will show up and display the history of publishing/unpublishing of that URL.
+Displays the history of publishing/unpublishing of the URL.
 
 ## Updated On
 
@@ -217,19 +217,17 @@ User can view the translated URL in the selected language.
 
 ### Proof Read/Translate
 
-Click on proof read tab.
+Click on proof read Tab.
 
 ![preview](./images/DOTA_Web/ProofRead.png)
 
-Proof read shows  all the sentences of the URL along with the translation.
-
-User can also do modification of the sentences.
+Proof read shows  all the sentences of the URL along with the translation. User can edit the translations as well.
 
 ![proofread](./images/Toggledota.png)
 
 ### Sync Word Count
 
-User can sync word count for each url.
+User can sync word count for each url. This will update the value of the word count for the URL.
 
 ![syncwordcount](./images/DOTA_Web/SyncWord.png)
 
@@ -242,19 +240,19 @@ Only published links are shown as translated.
 
 ## Search Tab
 
-Users can utilize the search button to look up any URL, with the checkbox enabling exact search functionality.
+Users can utilize the search functionality to look up any specific URL. There is an option to perform exact search corresponding to the entered URL.
 
 ![search](./images/DOTA_Web/Search.png)
 
 ## Change URL Status
 
-Users have the ability to publish or unpublish URLs using the options from the dropdown menu. Selecting "publish in all languages" will publish the URL for all available languages, while unpublishing can only be done on a language-by-language basis.
+Users have the ability to publish or unpublish URLs using the options from the dropdown menu. Do note that selecting "publish in all languages" will publish the URL for all available languages in the order, while unpublishing can only be done on a language-by-language basis.
 
 ![urlupdate](./images/DOTA_Web/ChangeStatus.png)
 
 ## Add more language
 
-User can add on new languages from the "Add Languages" option.
+User can add a new languages from the "Add Languages" option.
 
 ![morelanguage](./images/DOTA_Web/AddLanguage.png)
 
@@ -268,7 +266,7 @@ We can delete the URLs by using the delete button.
 
 ## Change Block/Unblock URL Status
 
-User can change Block/Unblock url status using the block button.
+User can change Block/Unblock url status using the block button. This is used to block/unblock any URL for display and localisation purposes.
 
 ![Block](./images/DOTA_Web/ChangeBlock.png)
 
@@ -286,32 +284,31 @@ User can use the filter dropdown to filter on Active/Inactive/Blocked status, Pu
 
 ## Add URLs
 
-If system did not crawl any url due to some technical issue or user want only some specifc URLs to be translated, so user can provide the URLs and translate them.
-Upon clicking on the "Add URLs" page will redirect to the next page.
+If system did not crawl any url due to some technical issue or user wants only some specifc URLs to be translated, the user can provide those URLs for translation.
 
 ![url_status](./images/DOTA_Web/URLStatus.png)
 
 ## Scan Your Website button
 
-Upon clicking on the Scan Your Website button all the website will get scan and will display on the screen.
+This option can be used to get a list  of all the possible URLs that are crawled by the Devnagri crawler.
 
 <!-- ![sync](./images/a3.png) -->
 
 ## Translate button
 
-Post selecting from the list of populated URLs, click on the translate button and URLs will be loaded to the DOTA dashboard.
+Post selecting from the list of populated URLs, click on the translate button and URLs will be redirected to the DOTA dashboard.
 
 <!-- ![tran](./images/translate.png) -->
 
 ## Don't have URLs
 
-If system not crawling all the URLs user can click on the click here button and add the URLs to the dashboard manually.
+If the Devnagri crawler is unable to crawl some URLs, then use this to add the URLs to the dashboard manually.
 
 <!-- ![Donthave](./images/clickurl.png) -->
 
 ## Manually Adding URL
 
-Users can add URLs using either the "Paste URLs" or "Upload Files" feature to crawl content from the uploaded URLs.
+Users can add URLs using either the "Paste URLs" or "Upload Files" feature to add list of URLs for crawling/translation.
 
 ![upload_files](./images/DOTA_Web/UploadFilesUpdate.png)
 
