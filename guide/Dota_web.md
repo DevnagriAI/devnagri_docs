@@ -193,11 +193,11 @@ Translation is to be done by utilsing the Devnagri's premium services.
 
 ## Created On
 
-Ddate on which the URL was created in the Devnagri System.
+Date on which the URL was created in the Devnagri System.
 
 ## Published On
 
-Date on which the URL was published for the first time in the Devnagri System.
+Date on which the URL was first published in the Devnagri System.
 
 ## Published On History
 
