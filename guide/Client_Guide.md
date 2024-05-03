@@ -77,7 +77,7 @@ If a user has forgotten (or wants to reset) the password, then using [“Forgot 
 
 To create a Document Translation order, one needs to click on the Create Order Button on the Document Order tile.
 
-![DocumentOrder](./images/dasboard12.png)
+![DocumentOrder](./images/Dashboard12.png)
 
 Once Billing details are updated, user can proceed to create an order.
 
