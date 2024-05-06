@@ -1,70 +1,92 @@
-# Glossary
+# Rules / Glossary
 
 Glossaries are the definitions and meanings of specific sentences unique to your domain. In the translation process it will help translators to find those terms and apply correct translations. Which will eventually improve your translation speed & quality.
 
-## Types of Glossary
+Rule is implementation of prefrential translation of specific set of words using Machine Translation as well as Translators.
+
+## Types of Glossaries / Rules
 
 1. Translate Term
 2. Do not translate
 
 ## Translate Term
 
-1. **Translate the term**: By using the option translate the term client should give the description that how the phrase get translate by giving some special guidelines.
+By using this option, client should mention the replaced term, which will get replaced in place of input term"
 
 ![alt text](./images/ManualUpdate.png)
 
 ## Do not Translate
 
-By using this option the phrase should be displayed highlighted on translation page with the message **Do Not Translate**
+By using this option, the input term remains untranslated and remains the same.
 
 ![alt text](./images/DonotTransUpdate.png)
 
-## How to Add Glossary
+## How to Add Glossary / Rule
 
-### Step 1: Go to Order
+### Step 1: Go to Translation Settings Tab
 
-### Step 2: Go to Glossary tab
+### ![Glossary](./images/TranslationSettings.png)
+
+### Step 2: Click on Manage Glossary / Rules
 
 ### ![Glossary](./images/GlosarryUpdate.png)
 
-### Manual Glossary
+### Step 2: Click on Add Glossary
 
-i. Add the “Industry”, select according to the order and terminology
+![Generate Glossary](./images/GenerateGlosarry.png)
 
-ii. Select "Source language"
+### Add Term
 
-iii. Select "Target language"
+i. Select the “Industry”, according to the order and terminology.
 
-iv. “Term” add the term/word
+ii. Select "Source language".
 
-v.“Description” is used to add details for the term added. It helps if the translation is required but in a specialized way,
+iii. Select "Target language".
 
-vi.“Translate Term” Select or Deselect; on selecting the option terminology will be translated according to the given instructions & on deselecting the word will remain untranslated.
+iv. “Input Term” - Input the term/word to be translated.
 
-vii. Use “Save” option to store the terms in glossary.
+v. "Replaced Term" is the output / prefrential translation for the "input term" added. It helps to specify prefrential translation is required for specific terms.
 
-![Add Glossary](./images/ManualGlosarryUpdate.png)
+vi. User can select "Apply as Rule" to implement prefrential translation for specific set of words using Machine Translation as well as Translators.
+
+vii. User can select "Case Sensitive" option to consider the distinction between uppercase and lowercase letters when processing rules.
+
+viii. Use “Save” option to store the terms in glossary.
+
+![Add Glossary](./images/ManualUpdate.png)
 
 ### Upload Glossary
 
-i. To understand how to upload the terms in bulk user can “Download Sample File”. Add the term, description, and the status of translation in “Yes/No”
+i. To understand how to upload the terms in bulk user can “Download Sample File”. Add the term, description, and the status of translation in “True/False”
 
 ii. After the information is added in the file and saved, choose the “Industry”.
 
 iii. Select "Source Language"
 
+iv. Select "Target Language"
+
 iv. Upload the file by simple “drag and drop” or selecting the local file destination.
 
-v. As soon as the file gets successfully uploaded select “Save” option.
+v. User can select "Apply as Rule" to implement prefrential translation for specific set of words using Machine Translation as well as Translators.
+
+vi. User can select "Case Sensitive" option to consider the distinction between uppercase and lowercase letters when processing rules.
+
+vii. As soon as the file gets successfully uploaded select “Save” option.
 
 ![Upload Glossary](./images/UploadGlosarryUpdate.png)
 
 
 ## How to Generate Glossary
 
-### Step 1: Go to Order
+### Step 1: Go to Translation Settings Tab
 
-### Step 2: Go to Glossary tab
+### ![Glossary](./images/TranslationSettings.png)
+
+### Step 2: Click on Manage Glossary / Rules
+
+### ![Glossary](./images/GlosarryUpdate.png)
+
+### Step 2: Click on Add Glossary
 
 ![Generate Glossary](./images/GenerateGlosarry.png)
 
