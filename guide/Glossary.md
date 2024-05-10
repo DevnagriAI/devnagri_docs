@@ -1,6 +1,6 @@
 # Rules / Glossary
 
-Glossaries are the definitions and meanings of specific sentences unique to your domain. In the translation process it will help translators to find those terms and apply correct translations. Which will eventually improve your translation speed & quality.
+Glossaries are the definitions and meanings of sentences which are unique to your domain. In the translation process it will help translators to find those terms and apply correct translations. Which will eventually improve your translation speed & quality.
 
 Rule is implementation of prefrential translation of specific set of words using Machine Translation as well as Translators.
 
