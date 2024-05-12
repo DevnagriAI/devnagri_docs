@@ -1,13 +1,13 @@
 # Rules / Glossary
 
-Glossaries are the definitions and meanings of sentences which are unique to your domain. Glossaries will help translators to apply correct and ensure consistent translations. This will eventually improve the translation speed & quality.
+Glossaries are the definitions and meanings of sentences which are unique to your domain. Glossaries will help translators to apply correct translations as per customer needs and thus ensure consistency in translations. This will eventually help improve the translation speed & quality.
 
-Rule is implementation of prefrential translation of specific set of words using Machine Translation as well as Translators.
+Rule is mandatory implementation of prefrential translation of specific set of words while using Machine OR Manual Translation.
 
 ## Types of Glossaries / Rules
 
 1. Translate Term
-2. Do not translate
+2. Do not Translate
 
 ## Translate Term
 
@@ -37,41 +37,37 @@ This ensures that the input term remains as is and is not translated.
 
 ### Add Term
 
-i. Select the “Industry”, according to the order and terminology.
+i. Select Industry as per customer requirement.
 
-ii. Select "Source language".
+ii. Choose the Source and Target language.
 
-iii. Select "Target language".
+iii. Enter the term/word to be translated in the Input Term. 
 
-iv. “Input Term” - Enter the term/word to be translated.
+iv. Enter the preferential translation for the Input Term in Replaced Term. 
 
-v. "Replaced Term" is the output / preferential translation for the "input term". 
+v. Choose Apply as Rule to ensure that the preferential translation is mandatorily chosen for the input term.
 
-vi. User can select "Apply as Rule" to ensure that the preferential translation is mandatorily chosen for the input term.
+vi. Choose Case Sensitive option to consider the distinction between uppercase and lowercase letters when processing the rule.
 
-vii. User can select "Case Sensitive" option to consider the distinction between uppercase and lowercase letters when processing rules.
-
-viii. Use “Save” option to store the terms in glossary.
+vii. Click on Save to store the terms in glossary.
 
 ![Add Glossary](./images/ManualUpdate.png)
 
 ### Upload Glossary
 
-i. Preferably use this option incase there is a need to upload glossaries in bulk. Add term, description, and the status of translation in “True/False”
+Preferably use this option incase there is a need to upload glossaries in bulk. Add term, description, and the status of translation in True/False.
 
-ii. After the information is added in the file and saved, choose the “Industry”.
+i. Select Industry as per customer requirement.
 
-iii. Select "Source Language"
+ii. Choose the Source and Target language.
 
-iv. Select "Target Language"
+iii. Upload the file by either using drag and Drop OR by selecting the file location from local machine.
 
-iv. Upload the file by either using “drag and drop” or selecting the local file destination.
+iv. Choose Apply as Rule to ensure that the preferential translation is mandatorily chosen for the input term.
 
-v. User can select "Apply as Rule" to implement prefrential translation for specific set of words using Machine Translation as well as Translators.
+v. Choose Case Sensitive option to consider the distinction between uppercase and lowercase letters when processing the rule.
 
-vi. User can select "Case Sensitive" option to consider the distinction between uppercase and lowercase letters when processing rules.
-
-vii. As soon as the file gets successfully uploaded, select “Save” option.
+vi. Once the file gets uploaded successfully, click on Save.
 
 ![Upload Glossary](./images/UploadGlosarryUpdate.png)
 
@@ -90,14 +86,12 @@ vii. As soon as the file gets successfully uploaded, select “Save” option.
 
 ![Generate Glossary](./images/GenerateGlosarry.png)
 
-i. Choose relevant “Industry”.
+i. Select Industry as per customer requirement.
 
-ii. Select "Source language".
+ii. Choose the Source and Target language.
 
-iii. Select "Target language'. User can select multiple target languages.
+iii. To add content for creating glossary user can upload a file OR can choose an existing order.
 
-v. In order to add the content for creating glossary user can upload file or can choose an existing order.
-
-vi. Use "Generate" option to generate glossary
+iv. Click the Generate option to generate glossary
 
 ![Generate Glossary](./images/GenerateGlosarry2.png)
