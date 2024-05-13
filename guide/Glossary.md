@@ -43,7 +43,7 @@ ii. Choose the Source and Target language.
 
 iii. Enter the term/word to be translated in the Input Term. 
 
-iv. Enter the preferential translation for the Input Term in Replaced Term. 
+iv. Enter the preferential translation in Replaced Term. 
 
 v. Choose Apply as Rule to ensure that the preferential translation is mandatorily chosen for the input term.
 
