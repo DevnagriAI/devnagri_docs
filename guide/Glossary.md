@@ -1,81 +1,97 @@
-# Glossary
+# Rules / Glossary
 
-Glossaries are the definitions and meanings of specific sentences unique to your domain. In the translation process it will help translators to find those terms and apply correct translations. Which will eventually improve your translation speed & quality.
+Glossaries are the definitions and meanings of sentences which are unique to your domain. Glossaries will help translators to apply correct translations as per customer needs and thus ensure consistency in translations. This will eventually help improve the translation speed & quality.
 
-## Types of Glossary
+Rule is mandatory implementation of prefrential translation of specific set of words while using Machine OR Manual Translation.
+
+## Types of Glossaries / Rules
 
 1. Translate Term
-2. Do not translate
+2. Do not Translate
 
 ## Translate Term
 
-1. **Translate the term**: By using the option translate the term client should give the description that how the phrase get translate by giving some special guidelines.
+Mention the translated term which will replace the input or source term.
 
 ![alt text](./images/ManualUpdate.png)
 
 ## Do not Translate
 
-By using this option the phrase should be displayed highlighted on translation page with the message **Do Not Translate**
+This ensures that the input term remains as is and is not translated.
 
 ![alt text](./images/DonotTransUpdate.png)
 
-## How to Add Glossary
+## How to Add Glossary / Rule
 
-### Step 1: Go to Order
+### Step 1: Go to Translation Settings Tab
 
-### Step 2: Go to Glossary tab
+### ![Glossary](./images/TranslationSettings.png)
+
+### Step 2: Click on Manage Glossary / Rules
 
 ### ![Glossary](./images/GlosarryUpdate.png)
 
-### Manual Glossary
+### Step 3: Click on Add Glossary
 
-i. Add the “Industry”, select according to the order and terminology
+![Generate Glossary](./images/GenerateGlosarry.png)
 
-ii. Select "Source language"
+### Add Term
 
-iii. Select "Target language"
+i. Select Industry as per customer requirement.
 
-iv. “Term” add the term/word
+ii. Choose the Source and Target language.
 
-v.“Description” is used to add details for the term added. It helps if the translation is required but in a specialized way,
+iii. Enter the term/word to be translated in the Input Term. 
 
-vi.“Translate Term” Select or Deselect; on selecting the option terminology will be translated according to the given instructions & on deselecting the word will remain untranslated.
+iv. Enter the preferential translation in Replaced Term. 
 
-vii. Use “Save” option to store the terms in glossary.
+v. Choose Apply as Rule to ensure that the preferential translation is mandatorily chosen for the input term.
 
-![Add Glossary](./images/ManualGlosarryUpdate.png)
+vi. Choose Case Sensitive option to consider the distinction between uppercase and lowercase letters when processing the rule.
+
+vii. Click on Save to store the terms in glossary.
+
+![Add Glossary](./images/ManualUpdate.png)
 
 ### Upload Glossary
 
-i. To understand how to upload the terms in bulk user can “Download Sample File”. Add the term, description, and the status of translation in “Yes/No”
+Preferably use this option incase there is a need to upload glossaries in bulk. Add term, description, and the status of translation in True/False.
 
-ii. After the information is added in the file and saved, choose the “Industry”.
+i. Select Industry as per customer requirement.
 
-iii. Select "Source Language"
+ii. Choose the Source and Target language.
 
-iv. Upload the file by simple “drag and drop” or selecting the local file destination.
+iii. Upload the file by either using drag and Drop OR by selecting the file location from local machine.
 
-v. As soon as the file gets successfully uploaded select “Save” option.
+iv. Choose Apply as Rule to ensure that the preferential translation is mandatorily chosen for the input term.
+
+v. Choose Case Sensitive option to consider the distinction between uppercase and lowercase letters when processing the rule.
+
+vi. Once the file gets uploaded successfully, click on Save.
 
 ![Upload Glossary](./images/UploadGlosarryUpdate.png)
 
 
 ## How to Generate Glossary
 
-### Step 1: Go to Order
+### Step 1: Go to Translation Settings Tab
 
-### Step 2: Go to Glossary tab
+### ![Glossary](./images/TranslationSettings.png)
+
+### Step 2: Click on Manage Glossary / Rules
+
+### ![Glossary](./images/GlosarryUpdate.png)
+
+### Step 3: Click on Add Glossary
 
 ![Generate Glossary](./images/GenerateGlosarry.png)
 
-i. Add the “Industry”, select according to the order and terminology
+i. Select Industry as per customer requirement.
 
-ii. Select "Source language"
+ii. Choose the Source and Target language.
 
-iii. Select "Target language'. User can select multiple target language.
+iii. To add content for creating glossary user can upload a file OR can choose an existing order.
 
-v. In order to add the content for creating glossary user can upload file or can choose order.
-
-vi. Use "Generate" option to generate glossary
+iv. Click the Generate option to generate glossary
 
 ![Generate Glossary](./images/GenerateGlosarry2.png)
