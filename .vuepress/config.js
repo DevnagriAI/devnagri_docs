@@ -38,7 +38,8 @@ module.exports = {
             'Client_Guide',
             'Glossary',
             'Dota_web' ,
-            'Dota_mobile_app'
+            'Dota_mobile_app',
+            'API_Services'
           ]
         },
         {
