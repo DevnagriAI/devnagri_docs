@@ -244,6 +244,8 @@ Users can utilize the search functionality to look up any specific URL. There is
 
 ![search](./images/DOTA_Web/Search.png)
 
+Users can utilize the date filters for filtering on basis of "Created On" or "Published On" dates mentioned corresponding to each URL.
+
 ## Change URL Status
 
 Users have the ability to publish or unpublish URLs using the options from the dropdown menu. Do note that selecting "publish in all languages" will publish the URL for all available languages in the order, while unpublishing can only be done on a language-by-language basis.
