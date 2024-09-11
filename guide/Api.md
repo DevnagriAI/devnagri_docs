@@ -262,7 +262,7 @@ curl --location 'https://app.devnagri.com/api/order/json/reject' \
 ---
 ---
 
-## Translation API
+<!--## Translation API
 
 This API is responsible for returning translation for the input sentence.
 
@@ -520,3 +520,4 @@ The request requires input in the form data
 | src_lang | auto | This is an optional field, and can be set to "auto". This will detect the language of the `input_text`. language code. [Ref](LanguageCodes.md). |
 | dest_lang | ml | language code. [Ref](LanguageCodes.md). |
 | key | recgdgstaDKtVpMIJQ | Unique key assigned to user for the API usage |
+-->
