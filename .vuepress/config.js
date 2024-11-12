@@ -55,7 +55,6 @@ module.exports = {
           collapsable: true,
           children: [
             'Api',
-            'VoiceTranslationApi',
             'LanguageCodes',
             'Industries'
           ]
