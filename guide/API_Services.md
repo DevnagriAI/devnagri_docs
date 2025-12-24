@@ -8,9 +8,8 @@ Click on the Subscribe API button in the API Services tile to subscribe.
 
 ![DocumentOrder](./images/API_services_dashboard.png)
 
-Select the specific API depending on the requirements from the API Hub section.
-
-![APIselection](./images/APIHub.png)
+Select the specific API depending on the requirements.
+![APIselection](./images/APIDashboard.png)
 
 Choose one of the plans as per requirement.
 
@@ -18,7 +17,7 @@ Choose one of the plans as per requirement.
 
 #### Plans and their details:
 
-1. Free Plan : Word limit of 10,000 words and restriction of being able to create only a single project key for API usage.
+1. Free Plan : Word limit of 1,000 words and restriction of being able to create only a single project key for API usage.
 
 2. Standard Plan : Charged at ₹ 0.10/word with option to generate multiple project keys for APIs.
 
